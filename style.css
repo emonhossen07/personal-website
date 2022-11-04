@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppines', sans-serif;
+    box-sizing: border-box;
+}
+section {
+    height: 500px;
+}
+.first {
+    height: 100vh;
+    width: 100%;
+    background-image: url('header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 60px;
+}
+.half-width img {
+    width: 100%;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 750;
+    color: #eb2f87e7;
+    padding-bottom: 30px;
+    
+}
+h2 {
+    font-size: 30px;
+    font-weight: 550;
+    color: #000;
+    padding-bottom: 15px;
+}
+.down {
+    padding-top: 150px;
+    padding-left: 120px;
+}
+p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #808080;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #eb2f87e7;
+    background-image: linear-gradient(45deg, #df428ba1, #e43c8ae8);
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.second {
+    height: 120vh;
+    width: 100%;
+    background-image: url('biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.latest-work img{
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    padding: 3%;
+    
+}
+.third {
+    width: 100%;
+    height: 100vh;
+    background-image: url('latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h4 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 650;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.size1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 650;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.size2 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 10px;
+}
+.size3 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    color: #808080;
+}
+.size4 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: rgba(0, 0, 0, 0.767);
+}
+.size5 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.message {
+    margin: auto;
+    background-image: linear-gradient(30deg, rgb(151, 51, 104), rgb(199, 73, 51));
+    width: 500px;
+    margin-top: 5%;
+    padding: 40px 50px;
+    border-radius: 15px;
+}
